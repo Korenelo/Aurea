@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul, li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.container{
+	height: auto;
+	width: 980px;
+	margin: 0 auto;
+}
+header{
+	background: #fff;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+	border-bottom: #0079B3 4px solid;
+	padding: 10px 0 0;
+}
+.header_block{
+}
+.header_block_logo{
+	position: relative;
+	max-width: 245px;
+	width: 20%;
+	display: inline-block;
+}
+.header_block .image_wrap{
+	border-bottom: #FF4F27 4px solid;
+	margin-bottom: -4px;
+	width: auto;
+	height: auto;
+}
+.header_block_logo img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	margin-bottom: 16px;
+}
+.header_block_menu{
+	width: 79%;
+	display: inline-block;
+}
+.menu_list {
+	text-align: right;
+	height: auto;
+}
+.menu_list li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.menu_list a{
+	display: inline-block;
+	font-size: 16px;
+	color: #808080;
+}
+.menu_list a:hover{
+	display: inline-block;
+	font-size: 16px;
+	color: #FF4F27;
+	transition: 0.8s;
+}
+
+
+
+
+
+
+.first_block{
+	margin-top: 96px;
+}
+.gradient_row{
+	background: linear-gradient(to right, #00A1E4, #43B6E8);
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 5px solid #fff;
+	overflow: hidden;
+}
+.gradient_row:nth-child(even){
+	background: linear-gradient(to left, #00A1E4, #43B6E8);
+}
+.center h1{
+	color: #FFFFFF;
+	text-align: center;
+	margin: 30px 0;
+}
+.block_text h2{
+	padding: 5px 10px;
+	background: #FF7A08;
+	color: #FFFFFF;
+	display: inline-block;
+}
+.block_text p{
+	color: #EFF7FD;
+	padding: 10px 10px;
+	height: 100%;
+}	
+.block_text_content{
+	display: inline-block;
+	width: 53%;
+	vertical-align: top;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border-right: 5px solid #fff;
+	height: 100%;
+}
+.left-border{
+	border-right: none; 
+	border-left: 5px solid #fff;
+}
+.block_pic_content {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	padding: 20px 10px;
+	box-sizing: border-box;
+}
+.block_text{
+	width: 90%;
+	padding: 20px 10px;
+	box-sizing: border-box;
+}
+.block_pic{
+}
+.block_pic .image_wrap{
+}
+
+
+
+.second_block{
+}
